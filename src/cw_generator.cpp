@@ -46,7 +46,7 @@
     #define WS2812_POWER_PIN PICO_DEFAULT_WS2812_POWER_PIN
 #else
     // default to pin 1 if the board doesn't have a default WS2812 power pin defined
-    #define WS2821_POWER_PIN 1
+    #define WS2812_POWER_PIN 1
 #endif
 
 #define WS2812_COLOR_PADDLE ((uint32_t) (255) << 8) | ((uint32_t) (255) << 16) | (uint32_t) (255)           // r << 8 | g << 16 | b
