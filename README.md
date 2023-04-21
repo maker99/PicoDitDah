@@ -1,4 +1,9 @@
 # PicoDitDah
+this is a fork from the original [dg1psi/PicoDitDah](https://github.com/dg1psi/PicoDitDah)
+This will allow to run on on a standard Raspberry Pi Pico board. 
+
+Original README:
+
 Morse code keyer based on the Raspberry Pi Pico. The device acts as a virtual USB microphone which sends pure sine waves based on the connected paddle.
 
 The USB code uses the [TinyUSB library](https://github.com/hathach/tinyusb) to act as a virtual USB sound card. The morse code is generated purely in software on the Raspberry Pi Pico (rp2040).
