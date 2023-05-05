@@ -2,9 +2,9 @@ name: CMake
 
 on:
   push:
-    branches: [ "PiPico_board" ]
+    branches: [ "PiPico_boardx" ]
   pull_request:
-    branches: [ "PiPico_board" ]
+    branches: [ "PiPico_boardx" ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
